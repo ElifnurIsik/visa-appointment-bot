@@ -1,5 +1,10 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
-
+node_modules/
+.env
+.env.local
+scraper/__pycache__/
+scraper/playwright/
+bot.log
 # dependencies
 /node_modules
 /.pnp

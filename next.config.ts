@@ -1,7 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  env: {
+    BOT_URL: process.env.BOT_URL,
+  },
 };
 
 export default nextConfig;
